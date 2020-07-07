@@ -1,0 +1,42 @@
+//@import 'normalize';
+@import 'variables';
+@import 'fonts';
+@import 'mixins';
+
+
+
+// html {
+// 	box-sizing: border-box;
+// }
+
+// *,*:before, *:after{
+// 	box-sizing: inherit;
+// }
+
+html {
+	font-size: 16px;
+	color: $black;
+}
+
+body {
+	font-family: 'Roboto', 'Arial', sans-serif;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	background-color: $primary;
+}
+
+.container {
+	@include min-max(320px, 100%, 0);
+	background-color: $primary;
+	
+}
+
+.wrap {
+	@include min-max(320px, 1200px, 0px);
+}
+
+@import 'blocks/header';
+@import 'blocks/menu';
+@import 'blocks/banner';
+@import 'blocks/advantages.scss';
+@import 'blocks/works.scss'

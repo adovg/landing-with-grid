@@ -1,0 +1,56 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menu__element {
+    margin-right: 35px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.menu__link {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    color: $text-color;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 1.66;
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: 500ms;
+    transition-property: color;
+
+    &::before {
+        content: '';
+        width: 8px;
+        height: 2px;
+        background-color: rgba(229, 73, 58, 255);
+        ;
+        display: block;
+        margin-bottom: 2px;
+        opacity: 0;
+        transition-duration: 500ms;
+        transition-property: opacity;
+    }
+
+    &:hover {
+        color: rgba(229, 73, 58, 255);
+
+        &::before {
+            opacity: 1;
+        }
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    .menu__element {
+        margin-right: 20px;
+    }
+}
