@@ -215,10 +215,6 @@ margin: 20px 0;
 
 @media(max-width: 768px) {
     .works__list {
-        // padding-top: 80px;
-        // padding-bottom: 160px;
-        // list-style: none;
-        // display: grid;
         grid-template-columns: repeat(2, minmax(145px, auto));
        
     }
