@@ -1,6 +1,65 @@
+$lineColor:  #2f2f2f;
+$responsiveText: #464646;
+@import 'blocks/list';
 
 .responsive__wrap {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url('../../build/img/bg-2.png') center top no-repeat;
+    background: url('../../build/img/back2.png') left bottom no-repeat;
+}
+.responsive__information {
+    max-width: 360px;
+    margin-left: auto;
+}
+.responsive__title {
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.1;
+    color: $white;
+    margin: 20px 0;
+    position: relative;
+        &:before {
+            position: absolute;
+            width: 70px;
+            height: 2px;
+            background-color: $lineColor;
+            left: 0;
+            top: -20px;
+            content: '';  
+        }
+}
+.responsive__text {
+    font-family: "Roboto";
+    font-size: 14px;
+    margin: 20px 0;
+    line-height: 1.43;
+    color: $responsiveText;
+}
+
+.responsive__list {
+    margin: 20px 0;
+}
+.list_element {
+    margin: 15px 0;
+    padding-left: 55px;
+    position: relative;
+    color: #959595;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 8px;
+            height: 3px;
+            background-color: $second;
+            top: 50%;
+            left: 23px;
+            transform: translateY(-50%);
+        }
+}
+
+.responsive__button {
+    @include button($green);
+    
 }

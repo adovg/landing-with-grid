@@ -68,13 +68,13 @@ function scripts() {
   	.pipe(browserSync.stream());
 };
 
-gulp.task('img-minification', () => {
-	return gulp.src('./src/img/**')
-	.pipe(imagemin({
-		progressive: true
-	}))
-	.pipe(gulp.dest('./build/img/'))	
-});
+// gulp.task('img-minification', () => {
+// 	return gulp.src('./src/img/**')
+// 	.pipe(imagemin({
+// 		progressive: true
+// 	}))
+// 	.pipe(gulp.dest('./build/img/'))	
+// });
 
 
 //svg sprite
@@ -116,7 +116,7 @@ function img() {
 };
 
 
-
+//svg sprite
  function sprite () {
     return gulp.src('./src/img/*.svg') // svg files for sprite
         .pipe(svg({
