@@ -7,8 +7,17 @@
 	<link rel="shortcut icon" href="build/img/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="build/css/style.css">
+
+	
+	
 </head>
 <body>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- <script src="build/js/jquery.js"></script> -->
+	<!-- <script src="build/js/owl.carousel.js"></script> -->
+	<script src="build/js/script.js"></script>
+
 	<div class="container">
 		<header class="header">
 			<div class="wrap header__wrap">
@@ -206,10 +215,249 @@
 				</div>
 			</div>		
 		</section>
+		<section class="skills">
+			<div class="skills_wrap wrap">
+				<div class="skills__left">
+					<h2 class="skills_title">Our skills</h2>
+					<p class="skills__text">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+						sed diam nonummy nibh euismod tincidunt ut laoreet.
+						Claritas est etiam processus dynamicus,
+						 qui sequitur mutationem consuetudium.
+					</p>
+					<button class="skills__button">Our services</button>
+				</div>
+				<div class="skills__right">
+
+					<div class="progress skills__progress">
+						<p class="progress__name">Photoshop</p>
+						<div class="progress__element" data-progress-percent='95'>
+							<div class="progress__line">
+								<span class="progess__tooltip">95%</span></div>
+						</div>				
+					</div>
+
+					<div class="progress skills__progress">
+						<p class="progress__name">Photography</p>
+						<div class="progress__element" data-progress-percent='36'>
+							<div class="progress__line">
+								<span class="progess__tooltip">36%</span></div>
+						</div>				
+					</div>
+
+					<div class="progress skills__progress">
+						<p class="progress__name">Wordpress</p>
+						<div class="progress__element" data-progress-percent='50'>
+							<div class="progress__line">
+								<span class="progess__tooltip">50%</span></div>
+						</div>				
+					</div>
+
+					<div class="progress skills__progress">
+						<p class="progress__name">Ecommerce</p>
+						<div class="progress__element" data-progress-percent='72'>
+							<div class="progress__line">
+								<span class="progess__tooltip">72%</span></div>
+						</div>				
+					</div>
+				</div>				
+			</div>
+		</section>
+
+		<section class="blog">
+			<h2 class="blog__title">Blog</h2>
+			<ul class="blog__list wrap">
+
+				<li class="blog__element blog__element--eight">
+					<div class="blog__info">
+						<a aria-label="Категория изображений" href="" class="blog__link">
+							<svg><use xlink:href='build/img/sprite.svg#icon-image'></use></svg>
+						</a>
+						<div class="blog__information">
+							<a href="#" class="blog__subtitle">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+							</a>
+							<p class="blog__description">
+								04 February 2015, Posted by <span>Admin</span>, Comments: 
+								<span>26</span>
+							</p>
+						</div>
+					</div>
+				</li>
+
+				<li class="blog__element blog__element--four">
+					<div class="blog__info">
+						<div class="blog__information">
+							<p class="blog__subtitle">
+								Latest Blog Posts
+							</p>
+							<p class="blog__text">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+								sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+								 Claritas est etiam processus dynamicus, 
+								 qui sequitur mutationem consuetudium lectorum nobis videntur parum.
+							</p>
+						</div>
+					</div>
+				</li>
+
+				<li class="blog__element blog__element--five">
+					<div class="blog__info">
+						<a aria-label="Категория изображений" href="" class="blog__link">
+							<svg><use xlink:href='build/img/sprite.svg#foto'></use></svg>
+						</a>
+						<div class="blog__information">
+							<a href="#" class="blog__about">
+								Nam liber tempor cum soluta
+							</a>
+							<p class="blog__description">
+								06 February 2015, Posted by <span>John Doe</span>, Comments: 
+								<span>26</span>
+							</p>
+						</div>	
+					</div>
+				</li>
+
+				<li class="blog__element blog__element--three">
+					<div class="blog__info">
+						<a href="" class="blog__link">
+							<svg><use xlink:href='build/img/sprite.svg#film'></use></svg>
+						</a>
+						<div class="blog__information">
+							<a href="#" class="blog__about">
+								Duis autem vel eum iriure
+							</a>
+							<p class="blog__description">
+								04 February 2015, Posted by <span>Admin</span>, Comments: 
+								<span>26</span>
+							</p>
+						</div>
+					</div>
+
+				</li>
+
+				<li class="blog__element blog__element--four">
+					<div class="blog__info">
+						<a href="" class="blog__link">
+							<svg><use xlink:href='build/img/sprite.svg#foto'></use></svg>
+						</a>
+						<div class="blog__information">
+							<a href="#" class="blog__about">
+								Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium
+							</a>
+							<p class="blog__description">
+								04 February 2015, Posted by <span>Admin</span>, Comments: 
+								<span>26</span>
+							</p>
+						</div>
+					</div>
+
+				</li>	
+
+			</ul>
+		</section>
 		
-		
+		<section class="clients">
+			<div class="clients__wrap wrap">
+				<h2 class="clients__title">
+					Our Happy Clients
+				</h2>
+				<p class="clients__text">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+					sed diam nonummy nibh euismod tincidunt ut laoreet. 
+					Claritas est etiam processus dynamicus.
+				</p>
+
+				<div class="clients__carousel carousel owl-carousel owl-theme">
+
+					<div class="carousel__item">
+						<img src="build/img/cli1.png" alt="client logo">
+					</div>
+
+					<div class="carousel__item">
+						<img src="build/img/cli2.png" alt="client logo">
+					</div>
+
+					<div class="carousel__item">
+						<img src="build/img/cli3.png" alt="client logo">
+					</div>
+
+					<div class="carousel__item">
+						<img src="build/img/cli4.png" alt="client logo">
+					</div>
+
+					<div class="carousel__item">
+						<img src="build/img/cli5.png" alt="client logo">
+					</div>
+
+					<div class="carousel__item">
+						<img src="build/img/cli1.png" alt="client logo">
+					</div>
+
+					<div class="carousel__item">
+						<img src="build/img/cli2.png" alt="client logo">
+					</div>
+
+					<div class="carousel__item">
+						<img src="build/img/cli3.png" alt="client logo">
+					</div>
+
+					<div class="carousel__item">
+						<img src="build/img/cli4.png" alt="client logo">
+					</div>
+
+					<div class="carousel__item">
+						<img src="build/img/cli5.png" alt="client logo">
+					</div>
+					
+				</div>
+			</div>	
+			
+		</section>
+
+		<section class="contacts">
+			<div class="contacts__wrap wrap">
+				<h2 class="contacts__title">Contacts</h2>
+				<ul class="contacts__list">
+					<li class="contacts__form">
+						<form action="#" class="form">
+							<div class="form__input">
+								<label for="form-name">Name</label>
+								<input id="" type="text" name="name" placeholder="Name">
+							</div>
+							<div class="form__input">
+								<label for="form-phone">Phone</label>
+								<input id="" type="tel" name="phone" placeholder="Phone">
+							</div>
+							<div class="form__input">
+								<label for="form-message">Message</label>
+								<textarea name="message"  placeholder="Message"></textarea>
+							</div>
+							<button class="form__button">Send</button>
+						</form>
+					</li>
+					<li class="contacts__map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.5934973774347!2d30.501977316117664!3d50.44867197947515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDI2JzU1LjIiTiAzMMKwMzAnMTUuMCJF!5e0!3m2!1sru!2sua!4v1595005128564!5m2!1sru!2sua" 
+						width="100%" height="440" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<ul class="menu footer__menu wrap">
+				<li class="menu__element"><a class="menu__link" href="#">home</a></li>
+				<li class="menu__element"><a class="menu__link" href="#">Features</a></li>
+				<li class="menu__element"><a class="menu__link" href="#">Portfolio</a></li>
+				<li class="menu__element"><a class="menu__link" href="#">Skills</a></li>
+				<li class="menu__element"><a class="menu__link" href="#">Blog</a></li>
+				<li class="menu__element"><a class="menu__link" href="#">Clients</a></li>
+				<li class="menu__element"><a class="menu__link" href="#">Contacts</a></li>
+			</ul>
+		</footer>
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="build/js/script.js"></script>
+	
+
+	
 </body>
 </html>

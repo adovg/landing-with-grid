@@ -4,7 +4,7 @@
 @import 'fonts';
 @import 'mixins';
 
-
+// background: url('../../build/img/photo.png')
 
 // html {
 // 	box-sizing: border-box;
@@ -42,3 +42,11 @@ body {
 @import 'blocks/advantages.scss';
 @import 'blocks/works.scss';
 @import 'blocks/responsive.scss';
+@import 'blocks/skills.scss';
+@import 'blocks/blog.scss';
+@import 'blocks/clients.scss';
+@import 'blocks/carousel/owl.carousel';
+@import 'blocks/carousel/owl.theme.default';
+@import 'blocks/contacts.scss';
+@import 'blocks/form.scss';
+@import 'blocks/footer.scss';

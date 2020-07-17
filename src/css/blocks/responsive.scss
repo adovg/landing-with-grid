@@ -61,5 +61,22 @@ $responsiveText: #464646;
 
 .responsive__button {
     @include button($green);
-    
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .responsive__wrap {
+        background-image: none;
+    }
+    .responsive__information {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive__wrap {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
